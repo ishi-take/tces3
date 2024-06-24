@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>20</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c0ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1DA229C988317E238C61">
+		<Style>
+			<IconStyle>
+				<Icon>
+				
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>10</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>c0ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D6C1EBD3F317E238C61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1DA229C988317E238C61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_23861D94B0317E238C61</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0611F880C22DE3079A87">
+		<name>先行整備区域4.6ha</name>
+		<LookAt>
+			<longitude>137.1760059741382</longitude>
+			<latitude>35.08596854246233</latitude>
+			<altitude>100.40870634222185</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00021412000957</gx:fovy>
+			<range>743.6399715161679</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D6C1EBD3F317E238C61</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						137.1737212938671,35.08620919685594,100 137.1736243071008,35.08609014952977,40 137.173724431948,35.08590173495771,40 137.1739659875983,35.08543073971288,40 137.1742136125727,35.08477531499977,40 137.1743343174168,35.08471116410014,40 137.1750887520182,35.08502212028549,40 137.1757949926558,35.08543203920687,40 137.1762289454947,35.08562473363958,40 137.1765915892475,35.08569875618809,40 137.1771405272427,35.08569875790209,40 137.1776713689065,35.08570862960013,40 137.1779299845197,35.08576286862018,40 137.1779778256259,35.08580241904058,40 137.1781707771203,35.08649172130838,40 137.1780960484064,35.08655496105617,40 137.1770426452499,35.08666170187209,40 137.1762603728513,35.0866382223349,40 137.1759099345278,35.08659920707563,40 137.1752275596842,35.08649737787677,40 137.1744885528431,35.08636736528061,40 137.1737212938671,35.08620919685594,40 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

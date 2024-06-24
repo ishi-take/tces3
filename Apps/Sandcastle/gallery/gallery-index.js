@@ -527,7 +527,7 @@ const gallery_demos = [{
   "img": "Interpolation.jpg"
 }, {
   "name": "Japan Buildings",
-  "isNew": true,
+  "isNew": false,
   "img": "Japan Buildings.jpg"
 }, {
   "name": "KML",
@@ -767,7 +767,7 @@ const gallery_demos = [{
   "img": "Z-Indexing Geometry.jpg"
 }, {
   "name": "glTF PBR Extensions",
-  "isNew": true,
+  "isNew": false,
   "img": "glTF PBR Extensions.jpg"
 }];
-const has_new_gallery_demos = true;
+const has_new_gallery_demos = false;
