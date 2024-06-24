@@ -17,8 +17,7 @@
 				<width>4</width>
 			</LineStyle>
 			<PolyStyle>
-				
-				<color>#ff0000ff</color>
+				<color>40ffffff</color>
 			</PolyStyle>
 			<BalloonStyle>
 			</BalloonStyle>
@@ -50,8 +49,7 @@
 				<width>6</width>
 			</LineStyle>
 			<PolyStyle>
-				
-				<color>#ff0000ff</color>
+				<color>00ffffff</color>
 			</PolyStyle>
 			<BalloonStyle>
 			</BalloonStyle>
@@ -73,8 +71,7 @@
 				<width>6</width>
 			</LineStyle>
 			<PolyStyle>
-				
-				<color>#ff0000ff</color>
+				<color>40ffffff</color>
 			</PolyStyle>
 			<BalloonStyle>
 			</BalloonStyle>
@@ -95,8 +92,7 @@
 				<width>4</width>
 			</LineStyle>
 			<PolyStyle>
-				
-				<color>#ff0000ff</color>
+				<color>00ffffff</color>
 			</PolyStyle>
 			<BalloonStyle>
 			</BalloonStyle>
@@ -130,18 +126,18 @@
 				<LinearRing>
 					<coordinates>
 						137.1737212938671,35.08620919685594,0 137.1736243071008,35.08609014952977,0 137.173724431948,35.08590173495771,0 137.1739659875983,35.08543073971288,0 137.1742136125727,35.08477531499977,0 137.1743343174168,35.08471116410014,0 137.1750887520182,35.08502212028549,0 137.1757949926558,35.08543203920687,0 137.1762289454947,35.08562473363958,0 137.1765915892475,35.08569875618809,0 137.1771405272427,35.08569875790209,0 137.1776713689065,35.08570862960013,0 137.1779299845197,35.08576286862018,0 137.1779778256259,35.08580241904058,0 137.1781707771203,35.08649172130838,0 137.1780960484064,35.08655496105617,0 137.1770426452499,35.08666170187209,0 137.1762603728513,35.0866382223349,0 137.1759099345278,35.08659920707563,0 137.1752275596842,35.08649737787677,0 137.1744885528431,35.08636736528061,0 137.1737212938671,35.08620919685594,0 
+						
 					</coordinates>
-				</LinearRing>	
+					</material>
+				</LinearRing>
+				<PolyStyle>
+					<fill>0</fill>
+					<outline>1</outline>
+				</PolyStyle>
+				
+
 			</outerBoundaryIs>
 		</Polygon>
-		<Style>
-			<PolyStyle>
-				<color>#aa0000ff</color>
-  				<outline>a00000ff</outline>
-			</PolyStyle>
-		</Style>
-			
-
 	</Placemark>
 	<Placemark id="00E6946B47317E41A4DD">
 		<name>2ki</name>
