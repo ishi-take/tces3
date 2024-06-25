@@ -136,8 +136,8 @@
 		</Polygon>
 		<Style>
 			<PolyStyle>
-				<color>#aa0000ff</color>
-  				<outline>a00000ff</outline>
+				<color>#a00000ff</color>
+  				<outline></outline>
 			</PolyStyle>
 		</Style>
 			
