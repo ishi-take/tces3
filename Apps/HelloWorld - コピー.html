@@ -23,26 +23,10 @@
         padding: 0;
         overflow: hidden;
       }
-      #toggleButton {
-        position: absolute;
-        top: 50px;
-        right:50px;
-        z-index: 10;
-      }
-
-      #toggleButton2 {
-        position: absolute;
-        top: 80px;
-        right:50px;
-        z-index: 10;
-
-      }
     </style>
   </head>
   <body>
     <div id="cesiumContainer"></div>
-    <button id="toggleButton">豊スタ</button>
-    <button id="toggleButton2">2期整備</button>
     <script>
       const viewer = new Cesium.Viewer("cesiumContainer", {
         baseLayerPicker: true,
@@ -53,14 +37,9 @@
         geocoder: true,
         sceneModePicker: true,
         navigationHelpButton: false,
-
       });
 
-        var poly = viewer.dataSources.add(Cesium.KmlDataSource.load("./kml/2ki.kml"));
-
-        "Cesium.KmlDataSource".show = false; 
-          
-      
+      viewer.dataSources.add(Cesium.KmlDataSource.load("./kml/2ki.kml"));
 
       var point = viewer.entities.add({
             name:"豊田スタジアム", //レイヤ名
@@ -71,12 +50,7 @@
                   color : Cesium.Color.BLUE //ポイントの色
               } 
           });
-          point.show = false;
 
-      document.getElementById('toggleButton').addEventListener('click', () => {
-          point.show = !point.show;
-        }
-      );
           
       
       viewer.camera.flyTo({   
