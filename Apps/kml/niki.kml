@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="10htSc4eggomMnY5A6s7PxbxLEU_3tCrv">
+	<name>豊田中央公園第二期</name>
+	<gx:CascadingStyle kml:id="__managed_style_15FD1ED75F317E41A4DE">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				
+				<color>#ff0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09076A551A317E41A4DE">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_15FD1ED75F317E41A4DE</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_25AB281D00317E41A4DE</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2367AD9E32317E41612F">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				
+				<color>#ff0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_25AB281D00317E41A4DE">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				
+				<color>#ff0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1B539E164A317E41612F">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				
+				<color>#ff0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00DFF2835E317E41612F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1B539E164A317E41612F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2367AD9E32317E41612F</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0611F880C22DE3079A87">
+		<name>先行整備区域4.6ha</name>
+		<LookAt>
+			<longitude>137.1760059741382</longitude>
+			<latitude>35.08596854246233</latitude>
+			<altitude>34.40870634222185</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00021412000957</gx:fovy>
+			<range>743.6399715161679</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_00DFF2835E317E41612F</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						137.1737212938671,35.08620919685594,0 137.1736243071008,35.08609014952977,0 137.173724431948,35.08590173495771,0 137.1739659875983,35.08543073971288,0 137.1742136125727,35.08477531499977,0 137.1743343174168,35.08471116410014,0 137.1750887520182,35.08502212028549,0 137.1757949926558,35.08543203920687,0 137.1762289454947,35.08562473363958,0 137.1765915892475,35.08569875618809,0 137.1771405272427,35.08569875790209,0 137.1776713689065,35.08570862960013,0 137.1779299845197,35.08576286862018,0 137.1779778256259,35.08580241904058,0 137.1781707771203,35.08649172130838,0 137.1780960484064,35.08655496105617,0 137.1770426452499,35.08666170187209,0 137.1762603728513,35.0866382223349,0 137.1759099345278,35.08659920707563,0 137.1752275596842,35.08649737787677,0 137.1744885528431,35.08636736528061,0 137.1737212938671,35.08620919685594,0 
+					</coordinates>
+				</LinearRing>	
+			</outerBoundaryIs>
+		</Polygon>
+		<Style>
+			<PolyStyle>
+				<color>#a00000ff</color>
+  				<outline></outline>
+			</PolyStyle>
+		</Style>
+			
+
+	
+</Document>
+</kml>
