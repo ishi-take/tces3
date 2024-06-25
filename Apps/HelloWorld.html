@@ -41,6 +41,15 @@
       padding: 10px;
       border-radius: 4px;
     }
+
+    #toolbar3 {
+      position: absolute;
+      top: 80px;
+      right: 270px;
+      background: rgba(255, 241, 241, 0.8);
+      padding: 10px;
+      border-radius: 4px;
+    }
   </style>
 </head>
 
@@ -51,6 +60,9 @@
   </div>
   <div id="toolbar2">
     <input type="checkbox" id="tbar" checked> ２期整備
+  </div>
+  <div id="toolbar3">
+    <input type="checkbox" id="kozui" checked> 洪水浸水想定区域モデル
   </div>
   <script>
     const viewer = new Cesium.Viewer("cesiumContainer", {
@@ -64,7 +76,7 @@
       navigationHelpButton: false,
     });
 
-
+//kmlファイルの読み込み・表示切替
     var poly1;
     Cesium.KmlDataSource.load("./kml/niki.kml").then(function(dataSource) {
       poly1 = dataSource;
@@ -78,8 +90,7 @@
     });
   });
 
-
-
+//ポイントの表示・表示切替
     var point1 = viewer.entities.add({
       name: "豊田スタジアム", //レイヤ名
       description: "ここは豊田スタジアムです。",　//レイヤの説明
@@ -96,12 +107,29 @@
       point1.show = toyosta.checked;
     });
 
-
+//初期表示
     //viewer.camera.flyTo({
     //  destination: Cesium.Cartesian3.fromDegrees(137.17089, 35.08465, 5000.0)
     //});
 
+// "洪水浸水想定区域モデル 矢作川水系矢作川（国管理区間）（豊田市）"
+var toyota;
+    Cesium.Cesium3DTileset.fromUrl(
+      'https://assets.cms.plateau.reearth.io/assets/7e/979826-23eb-43ae-86a5-95187e5b67c2/23211_toyota-shi_city_2023_citygml_1_op_fld_natl_yahagigawa_yahagigawa-1_3dtiles_l2_no_texture/tileset.json'
+    ).then((tileset) => {
+      toyota = tileset;
+      viewer.scene.primitives.add(toyota);
 
+      // スタイルを適用して色を変更
+      toyota.style = new Cesium.Cesium3DTileStyle({
+        color: "color('rgba(255, 0, 0, 0.5)')" // ここで色を指定
+      });
+    });
+
+    var kozui1 = document.getElementById("kozui");
+    kozui1.addEventListener("change", function () {
+      toyota.show = kozui1.checked;
+    });
 
   </script>
 </body>
