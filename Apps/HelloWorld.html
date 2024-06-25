@@ -66,20 +66,17 @@
         //poly1.show = false;
 
        // KMLファイルの読み込み
-       var kmlDataSource;
+       var kml = './kml/2ki.kml'
         Cesium.KmlDataSource.load('./kml/2ki.kml')
-            .then(function(dataSource) {
-                kmlDataSource = dataSource;
-                viewer.dataSources.add(kmlDataSource);
-                viewer.zoomTo(kmlDataSource);
-                console.log("KMLデータが読み込まれました");
-            })
+                viewer.dataSources.add(Cesium.KmlDataSource.load(kml));
+                viewer.zoomTo(kml);
+                
         
         // レイヤーの表示切替
         var toggleLayer = document.getElementById('toolbar2');
         toggleLayer.addEventListener('change', function() {
-          if (kmlDataSource) {
-            kmlDataSource.show = toggleLayer.checked;
+          if (kml) {
+            kml.show = toggleLayer.checked;
           }
         }); 
           
